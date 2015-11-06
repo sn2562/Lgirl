@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body {
+	height: 100%;
+	letter-spacing:3px;
+	text-align: center;
+	font-size: 12px;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#bba1c3;
+}
+
+/*ページ背景の設定*/
+.home-background {
+	background-image: url("../img/back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bgWrap {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/texture.png);
+	background-blend-mode: multiply;
+	-webkit-transition: background-color 2s ease-in;
+}
+#gloss {
+	position: fixed;
+	width: 100%;
+	height: 180px;
+	background: url(../img/gloss.png) repeat-x;
+	background-blend-mode: multiply;
+}
+
+/*ヘッダ*/
+header{
+
+}
+
+header,footer{
+	user-select: none; /* CSS3 */
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* Safari、Chromeなど */
+	-ms-user-select: none; /* IE10かららしい */
+}
+header img{
+	height: 100px;/*大きさの指定*/
+	margin:30px 0px 30px 0px;
+}
+
+/*ナビ*/
+#nav{
+	margin: 0;
+	background-color: #3e3e3e;
+	opacity: 0.8;
+	color:#fff;
+	padding-top: 2px;
+	background-blend-mode: darken;
+}
+#nav a{
+	color:#fff;
+	margin: 3px;
+	margin-right: 9px;
+}
+/*コンテンツ*/
+#container{
+	background-color: #fff;
+	text-align: left;
+	padding: 60;
+}
+
+footer{
+	color:#675931;
+	background-color: rgb(33, 33, 33);
+	height: 50px;
+	padding: 10px;
+}
+
+
+/*ギャラリーの設定*/
+.gallery{
+	text-align: left;
+	padding:10;
+	margin-right: 4px;
+	
+	user-select: none; /* CSS3 */
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* Safari、Chromeなど */
+	-ms-user-select: none; /* IE10かららしい */
+}
+
+.gallery img{
+	height: 60px;/*大きさの指定*/
+}
+.appgallery{
+}
+.appgallery p{
+	display:none;
+	background-color: aqua;
+}
+.appgallery img{
+	height: 65px;/*大きさの指定*/
+	margin-left: -4px;
+	margin-right: 0px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+.appgallery a{
+	/*	リンクを消す*/
+	/*	pointer-events:none;*/
+
+}
+
+/*おしごとの設定*/
+h4{
+	color:#675931;
+}
+h4.mg{
+	margin-top: 40px;
+}
+h5{
+	font-weight:500;
+}
+.btn{
+	margin-bottom: 5px;
+}
+.media img{
+	height:100px;
+}
+#container p a{
+	position: relative;
+	z-index: 2;
+	margin-left: 3px;
+	margin-right:4px; 
+}
+#container a{
+	position: relative;
+	z-index: 2;
+}
+
+/*トップページ用*/
+.topWrap{ 
+	text-align: center;
+}
+#infoBox{
+	color: #000;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	opacity: 0.8;
+	/*line-height:0px;*/
+	text-align:left;
+	z-index: 0;
+}
+#infoBox img{
+	height:50px;
+	vertical-align: top; 
+}
+.HeterocongerHassi dd{
+	margin-left:0; /*初期でかかっているmarginをリセット*/
+}
+.HeterocongerHassi dt , .HeterocongerHassi_text{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.clickable{
+	position: relative;
+	z-index: 2;
+}
